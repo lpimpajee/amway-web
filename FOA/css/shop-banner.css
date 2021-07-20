@@ -1,0 +1,325 @@
+.shop-mylist-banner {
+    width: 100%;
+    background: #F1F2FF;
+}
+
+.shop-mylist-banner-profile-box,
+.shop-mylist-banner-share-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-mylist-banner-share {
+    background: #38539A;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.shop-mylist-banner-share::before {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('../../image/Mylist/icon/icon-share.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.5rem 1.5rem;
+    margin-right: 0.25rem;
+}
+
+.shop-mylist-banner-profile {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 3.75rem;
+    position: relative;
+    z-index: 1;
+}
+
+.shop-mylist-banner-profile-img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 3.75rem;
+    position: relative;
+    z-index: 2;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.shop-mylist-banner-profile::after {
+    content: '';
+    display: block;
+    background: rgba(227, 229, 255, 0.5);
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    -webkit-box-shadow: 0rem 0.25rem 0.5rem 0rem rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.16);
+    box-shadow: 0rem 0.25rem 0.5rem 0rem rgb(0 0 0 / 16%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.shop-mylist-banner-name {
+    font-weight: 700;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    color: #38539A;
+}
+
+.shop-mylist-banner-detail {
+    font-weight: 500;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+@media(min-width:1024px) {
+    .shop-mylist-banner {
+        min-height: 20rem;
+        height: auto;
+        padding-bottom: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+    .shop-mylist-banner::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: url('../../image/Mylist/banner/banner-shop.svg') no-repeat center;
+        background-size: cover;
+    }
+    .shop-mylist-banner-profile-box {
+        padding-top: 1.5rem;
+    }
+    .shop-mylist-banner.customer {
+        padding-top: 1.5rem;
+    }
+    .shop-mylist-banner-name {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding-top: 1rem;
+    }
+    .shop-mylist-banner-detail {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-top: 0.25rem;
+    }
+    .shop-mylist-banner-share-box {
+        padding-top: 1.375rem;
+    }
+    .shop-mylist-banner-share {
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        padding-left: 2.75rem;
+        padding-right: 3rem;
+    }
+}
+
+@media(max-width:1023px) {
+    .shop-mylist-banner-profile-box {
+        padding-top: 1.5rem;
+    }
+    .shop-mylist-banner {
+        min-height: 22rem;
+        padding-bottom: 10rem;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+    .shop-mylist-banner::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: url('../../image/Mylist/banner/banner-shop-mb.svg') no-repeat center;
+        background-size: cover;
+    }
+    .shop-mylist-banner::before {
+        content: '';
+        position: absolute;
+        top: calc(100% - 13rem);
+        left: 0;
+        width: 100%;
+        height: 18rem;
+        background: url('../../image/creator/illustration/background-pad.svg');
+        background-position: top center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    .shop-mylist-banner-share-box {
+        position: relative;
+    }
+    .shop-mylist-banner-share {
+        position: absolute;
+        top: 2rem;
+        height: 2rem;
+        border-radius: 1rem;
+        padding-left: 1.75rem;
+        padding-right: 2rem;
+        z-index: 3;
+    }
+    .shop-mylist-banner-name {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
+    .shop-mylist-banner-detail {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media(max-width:760px) {
+    .shop-mylist-banner::before {
+        top: calc(100% - 9rem);
+    }
+}
+
+@media(max-width:510px) {
+    .shop-mylist-banner::before {
+        top: calc(100% - 6rem);
+    }
+}
+
+@media(max-width:425px) {
+    .shop-mylist-banner {
+        padding-bottom: 6rem;
+    }
+    .shop-mylist-banner::before {
+        top: calc(100% - 6rem);
+    }
+    .shop-mylist-banner-share-box {
+        height: 1rem;
+    }
+}
+
+.shop-mylist-banner-mod-bci-edit-btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-radius: 3.75rem;
+    -webkit-box-shadow: 0rem 0.125rem 0.25rem 0rem rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0rem 0.125rem 0.25rem 0rem rgba(0, 0, 0, 0.16);
+    box-shadow: 0rem 0.125rem 0.25rem 0rem rgba(0, 0, 0, 0.16);
+    background: url('../../image/icon/icon_tool_img/icon-edit.svg');
+    background-size: 2rem 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.shop-mylist-banner-mod-bci-edit {
+    position: absolute;
+    top: 5.5rem;
+    left: 5.5rem;
+    display: flex;
+}
+
+.shop-mylist-banner-mod-edit-menu {
+    position: absolute;
+    background: #ffffff;
+}
+
+.shop-mylist-banner-mod-edit-menu-list {
+    padding-bottom: 1rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.shop-mylist-banner-mod-edit-menu-list::before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-size: 2rem 2rem !important;
+    margin-right: 0.5rem;
+}
+
+.shop-mylist-banner-mod-edit-menu-list.cam::before {
+    background: url('../../image/Mylist/icon/cam.svg') no-repeat center;
+}
+
+.shop-mylist-banner-mod-edit-menu-list.edit::before {
+    background: url('../../image/Mylist/icon/edit.svg') no-repeat center;
+}
+
+@media(min-width:1024px) {
+    .shop-mylist-banner-mod-bci-edit .shop-mylist-banner-mod-edit-menu {
+        display: none;
+    }
+    .shop-mylist-banner-mod-bci-edit.selected .shop-mylist-banner-mod-edit-menu {
+        display: block;
+        top: 100%;
+        left: 100%;
+        width: 12rem;
+        height: auto;
+        padding: 1rem;
+        padding-bottom: 0;
+        -webkit-box-shadow: 0rem 0.188rem 0.375rem 0rem rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0rem 0.188rem 0.375rem 0rem rgba(0, 0, 0, 0.16);
+        box-shadow: 0rem 0.188rem 0.375rem 0rem rgba(0, 0, 0, 0.16);
+        border-radius: .5rem;
+        z-index: 1;
+    }
+    .shop-mylist-banner-mod-edit-backdrop {
+        display: none;
+    }
+    .editPop {
+        display: none;
+    }
+}
+
+@media(max-width:1023px) {
+    .shop-mylist-banner-mod-edit-menu {
+        display: none;
+    }
+    .shop-mylist-banner-mod-edit-menu-content {
+        padding: 1.5rem 1rem;
+        padding-top: 2.5rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transform: translateY(100%);
+        transition: 0.3s ease;
+        z-index: 1502;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        background: #ffffff;
+    }
+    .amway-modal.active .shop-mylist-banner-mod-edit-menu-content {
+        transform: translateY(0%);
+    }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="85" viewBox="0 0 92 85">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Union_1" data-name="Union 1" d="M-1554-3847v-45h80v45a40,40,0,0,1-40,40A40,40,0,0,1-1554-3847Z" transform="translate(1698 4079)" fill="#fff"/>
+    </clipPath>
+    <filter id="Union_3" x="-1.001" y="9.687" width="82.001" height="91.195" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_19269" data-name="Group 19269" transform="translate(-148 -191)">
+    <g id="Group_18030" data-name="Group 18030" transform="translate(0 4)">
+      <g id="Group_17411" data-name="Group 17411" transform="translate(127 42)">
+        <rect id="Rectangle_5357" data-name="Rectangle 5357" width="80" height="80" rx="40" transform="translate(21 150)" fill="#ca7f7f"/>
+      </g>
+      <g id="Mask_Group_225" data-name="Mask Group 225" transform="translate(4)" clip-path="url(#clip-path)">
+        <g id="XMLID_296_" transform="translate(106.999 198.167)">
+          <g transform="matrix(1, 0, 0, 1, 37, -11.17)" filter="url(#Union_3)">
+            <path id="Union_3-2" data-name="Union 3" d="M32,73.195H0V0H64v73.2Z" transform="translate(8 15.69)" fill="#fff"/>
+          </g>
+          <path id="XMLID_304_" d="M285,120h18.286v4.571H285Z" transform="translate(-203.428 -101.714)" fill="#fff1e8"/>
+          <path id="XMLID_305_" d="M285,180h18.286v4.571H285Z" transform="translate(-203.428 -152.571)" fill="#e3a780"/>
+          <path id="XMLID_306_" d="M285,240h18.286v4.571H285Z" transform="translate(-203.428 -203.428)" fill="#fff1e8"/>
+          <path id="XMLID_307_" d="M105,300h45.715v4.571H105Z" transform="translate(-50.857 -254.285)" fill="#fff1e8"/>
+          <path id="XMLID_308_" d="M105,360h45.715v4.571H105Z" transform="translate(-50.857 -305.143)" fill="#e3a780"/>
+          <path id="Union_4" data-name="Union 4" d="M22.961,4.52H0V0H45.922V4.52Z" transform="translate(54.039 64.156)" fill="#fff1e8"/>
+          <path id="Union_2" data-name="Union 2" d="M18.442,9.04H0V0H36.882V9.04Z" transform="translate(58.559)" fill="#ededed"/>
+          <path id="XMLID_315_" d="M105,120v22.857h11.429l1.524-8.381-1.524-7.619L114.143,120Z" transform="translate(-50.857 -101.714)" fill="#a76c47"/>
+          <path id="XMLID_318_" d="M191.429,120h-9.143L180,126.857v16h11.429Z" transform="translate(-114.428 -101.714)" fill="#a76c47"/>
+          <path id="XMLID_319_" d="M165,120v6.857h2.286l1.524-3.429L167.286,120Z" transform="translate(-101.714 -101.714)" fill="#e3a780"/>
+          <path id="XMLID_322_" d="M180,120h2.286v6.857H180Z" transform="translate(-114.428 -101.714)" fill="#e3a780"/>
+        </g>
+      </g>
+    </g>
+    <g id="Component_295" data-name="Component 295" transform="translate(208 235)">
+      <g id="Icon_Check_Active" data-name="Icon/Check/Active">
+        <g id="Shape" fill="#ca7f7f">
+          <path d="M 16 31 C 11.9933500289917 31 8.226519584655762 29.43972969055176 5.393400192260742 26.60659980773926 C 2.560270071029663 23.77347946166992 1 20.00665092468262 1 16 C 1 11.9933500289917 2.560270071029663 8.226519584655762 5.393400192260742 5.393400192260742 C 8.226519584655762 2.560270071029663 11.9933500289917 1 16 1 C 20.00665092468262 1 23.77347946166992 2.560270071029663 26.60659980773926 5.393400192260742 C 29.43972969055176 8.226519584655762 31 11.9933500289917 31 16 C 31 20.00665092468262 29.43972969055176 23.77347946166992 26.60659980773926 26.60659980773926 C 23.77347946166992 29.43972969055176 20.00665092468262 31 16 31 Z" stroke="none"/>
+          <path d="M 16 2 C 12.26045989990234 2 8.744749069213867 3.456249237060547 6.100500106811523 6.100500106811523 C 3.456249237060547 8.744749069213867 2 12.26045989990234 2 16 C 2 19.73954010009766 3.456249237060547 23.2552490234375 6.100500106811523 25.89949989318848 C 8.744749069213867 28.54375076293945 12.26045989990234 30 16 30 C 19.73954010009766 30 23.2552490234375 28.54375076293945 25.89949989318848 25.89949989318848 C 28.54375076293945 23.2552490234375 30 19.73954010009766 30 16 C 30 12.26045989990234 28.54375076293945 8.744749069213867 25.89949989318848 6.100500106811523 C 23.2552490234375 3.456249237060547 19.73954010009766 2 16 2 M 16 0 C 24.8365592956543 0 32 7.163440704345703 32 16 C 32 24.8365592956543 24.8365592956543 32 16 32 C 7.163440704345703 32 0 24.8365592956543 0 16 C 0 7.163440704345703 7.163440704345703 0 16 0 Z" stroke="none" fill="#faf2f1"/>
+        </g>
+      </g>
+      <path id="Close" d="M6.584,4.916A1.543,1.543,0,0,0,4.4,7.1l4.365,4.365L4.4,15.83a1.543,1.543,0,1,0,2.183,2.183l4.365-4.365,4.365,4.365A1.543,1.543,0,1,0,17.5,15.83l-4.365-4.365L17.5,7.1a1.543,1.543,0,1,0-2.183-2.183L10.95,9.282Z" transform="translate(5.05 4.536)" fill="#faf2f1" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

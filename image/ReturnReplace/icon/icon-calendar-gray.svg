@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_18984" data-name="Group 18984" transform="translate(-24 -144)">
+    <g id="Rectangle_5406" data-name="Rectangle 5406" transform="translate(24 144)" fill="#2c2c2c" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="Icon_Status_Calendar" data-name="Icon / Status / Calendar" transform="translate(28 148)">
+      <g id="calendar_2_" data-name="calendar (2)">
+        <path id="Shape" d="M14,14H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H14a2,2,0,0,1,2,2V12A2,2,0,0,1,14,14ZM1.333,4.693V12A.668.668,0,0,0,2,12.667H14A.668.668,0,0,0,14.667,12V4.693Z" transform="translate(0 2)" fill="#949494"/>
+        <g id="Group" transform="translate(2.666)">
+          <path id="Path" d="M1.334,0H.667A.667.667,0,0,0,0,.667V3.334A.667.667,0,0,0,.667,4h.667A.667.667,0,0,0,2,3.334V.667A.667.667,0,0,0,1.334,0Z" transform="translate(0)" fill="#949494"/>
+          <path id="Path-2" data-name="Path" d="M1.334,0H.667A.667.667,0,0,0,0,.667V3.334A.667.667,0,0,0,.667,4h.667A.667.667,0,0,0,2,3.333V.667A.668.668,0,0,0,1.334,0Z" transform="translate(8.667)" fill="#949494"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

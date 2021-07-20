@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4493" data-name="Rectangle 4493" width="32" height="32" transform="translate(-2418 -8339)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle_3407" x="-24" y="-16" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#764140" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_159" data-name="Mask Group 159" transform="translate(2418 8339)" clip-path="url(#clip-path)">
+    <g id="Group_12902" data-name="Group 12902" transform="translate(-2418 -8339)">
+      <g id="Group_6854" data-name="Group 6854">
+        <g id="Group_5258" data-name="Group 5258">
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_3407)">
+            <rect id="Rectangle_3407-2" data-name="Rectangle 3407" width="32" height="32" rx="16" fill="#fff" opacity="0"/>
+          </g>
+        </g>
+        <path id="Path_89504" data-name="Path 89504" d="M-2998.31-2714.34l-7.972-7.308a.592.592,0,0,0-.815.009l-7.529,7.308a.609.609,0,0,0-.186.434v10.5a.6.6,0,0,0,.6.594h5.536a.593.593,0,0,0,.593-.594v-4.943h3.234v4.943a.6.6,0,0,0,.6.594h5.536a.561.561,0,0,0,.416-.177.562.562,0,0,0,.177-.417v-10.5A.6.6,0,0,0-2998.31-2714.34Zm-1,10.338h-4.341v-4.934a.6.6,0,0,0-.594-.6h-4.429a.6.6,0,0,0-.425.176.6.6,0,0,0-.176.425V-2704h-4.341v-9.647l.018-.018,6.927-6.724,7.37,6.75Z" transform="translate(3022.816 2728.302)" fill="#2c2c2c"/>
+      </g>
+    </g>
+  </g>
+</svg>

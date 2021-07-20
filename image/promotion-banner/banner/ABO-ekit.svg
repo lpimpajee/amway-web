@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580" height="64" viewBox="0 0 580 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5308" data-name="Rectangle 5308" width="580" height="64" transform="translate(-1887 481)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_198" data-name="Mask Group 198" transform="translate(1887 -481)" clip-path="url(#clip-path)">
+    <g id="ABO-300-d" transform="translate(-2317 170)">
+      <rect id="Rectangle_4310" data-name="Rectangle 4310" width="580" height="64" transform="translate(430 311)" fill="#38539a"/>
+      <g id="Group_13541" data-name="Group 13541" transform="translate(512 258)">
+        <rect id="Rectangle_4321" data-name="Rectangle 4321" width="289" height="64" transform="translate(88 53)" fill="#38539a"/>
+        <g id="Group_12400" data-name="Group 12400" transform="translate(0)" opacity="0.151">
+          <circle id="Ellipse_1610" data-name="Ellipse 1610" cx="44" cy="44" r="44" transform="translate(0 93)" fill="#e3e5ff"/>
+          <g id="Ellipse_1611" data-name="Ellipse 1611" transform="translate(350)" fill="none" stroke="#e3e5ff" stroke-width="16">
+            <circle cx="39" cy="39" r="39" stroke="none"/>
+            <circle cx="39" cy="39" r="31" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="85" viewBox="0 0 83 85">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Union_1" data-name="Union 1" d="M-1554-3847v-45h80v45a40,40,0,0,1-40,40A40,40,0,0,1-1554-3847Z" transform="translate(1698 4079)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19279" data-name="Group 19279" transform="translate(-9990 -9972)">
+    <g id="Group_19286" data-name="Group 19286" transform="translate(0 259)">
+      <g id="Group_19050" data-name="Group 19050" transform="translate(9842 9526)">
+        <g id="Group_17411" data-name="Group 17411" transform="translate(127 42)">
+          <rect id="Rectangle_5357" data-name="Rectangle 5357" width="80" height="80" rx="40" transform="translate(21 150)" fill="#e1f5cd"/>
+        </g>
+        <g id="Mask_Group_225" data-name="Mask Group 225" transform="translate(4)" clip-path="url(#clip-path)">
+          <g id="XMLID_296_" transform="translate(106.999 198.167)">
+            <path id="Union_3" data-name="Union 3" d="M31.981,73.173H0V-.022H63.981v73.2Z" transform="translate(45.001 4.52)" fill="#d5e4c5"/>
+            <path id="XMLID_304_" d="M285,120h18.286v4.571H285Z" transform="translate(-203.428 -101.714)" fill="#c8dfb1"/>
+            <path id="XMLID_305_" d="M285,180h18.286v4.571H285Z" transform="translate(-203.428 -152.571)" fill="#b2cc98"/>
+            <path id="XMLID_306_" d="M285,240h18.286v4.571H285Z" transform="translate(-203.428 -203.428)" fill="#c8dfb1"/>
+            <path id="XMLID_307_" d="M105,300h45.715v4.571H105Z" transform="translate(-50.857 -254.285)" fill="#c8dfb1"/>
+            <path id="XMLID_308_" d="M105,360h45.715v4.571H105Z" transform="translate(-50.857 -305.143)" fill="#b2cc98"/>
+            <path id="Union_4" data-name="Union 4" d="M.006,0H45.928v4.52H.006Z" transform="translate(54.039 64.156)" fill="#c8dfb1"/>
+            <path id="Union_2" data-name="Union 2" d="M18.439,9.041H0V0H36.881V9.041Z" transform="translate(58.559)" fill="#73793b"/>
+            <path id="Union_74" data-name="Union 74" d="M-9941.569-10802.309H-9953v-22.859h9.142l2.287,6.857,2.285-6.857h9.142v22.859Z" transform="translate(10007.142 10843.453)" fill="#73793b"/>
+            <path id="Union_71" data-name="Union 71" d="M-9950.711-10818.312H-9953v-6.855h4.582v6.855Z" transform="translate(10016.285 10843.453)" fill="#c8dfb1"/>
+          </g>
+        </g>
+        <g id="_x34_3_search" transform="translate(191 230)">
+          <path id="Path_91303" data-name="Path 91303" d="M0,11.714H4.075V0H0Z" transform="translate(32.135 29.251) rotate(135)" fill="#73793b"/>
+          <path id="Path_91304" data-name="Path 91304" d="M14.546,327.374a3.464,3.464,0,0,0,0-4.9l-9.269-9.269a1.29,1.29,0,0,0-1.825,0L.378,316.279a1.29,1.29,0,0,0,0,1.825l9.269,9.269A3.464,3.464,0,0,0,14.546,327.374Z" transform="translate(24.44 -288.388)" fill="#73793b"/>
+          <ellipse id="Ellipse_1667" data-name="Ellipse 1667" cx="13.925" cy="13.925" rx="13.925" ry="13.925" transform="translate(0 0)" fill="#73793b"/>
+          <ellipse id="Ellipse_1668" data-name="Ellipse 1668" cx="9.972" cy="9.972" rx="9.972" ry="9.972" transform="translate(3.953 3.953)" fill="#e1f5cd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

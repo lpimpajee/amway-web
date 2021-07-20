@@ -1,0 +1,10 @@
+.amway-shop-banner-dellist {}
+
+.shop-list-banner.pink .amway-shop-banner-edit {
+    background: #7F3E3E;
+    color: #FFE2E2;
+}
+
+@media(min-width:1024px) {}
+
+@media(max-width:1023px) {}
