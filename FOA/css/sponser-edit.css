@@ -1,0 +1,33 @@
+.checkout-box-foreignSponser-info-edit {
+    display: flex;
+}
+
+.checkout-box-linepath {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+
+.checkout-box-foreignSponser-del-btn-del {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.checkout-box-del-btn-del-icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    background: url('../../image/FOA/icon/icon-bin-black.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.125rem 1.125rem;
+    margin-right: 0.25rem;
+}
+
+.checkout-box-del-btn-del-text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-decoration: underline;
+}

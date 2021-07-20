@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="15.158" viewBox="0 0 12 15.158">
+  <g id="clipboard" transform="translate(-53.334)">
+    <g id="Group_18152" data-name="Group 18152" transform="translate(55.86 6.316)">
+      <g id="Group_18151" data-name="Group 18151">
+        <path id="Path_91643" data-name="Path 91643" d="M144.983,213.333H139.3a.632.632,0,1,0,0,1.263h5.684a.632.632,0,1,0,0-1.263Z" transform="translate(-138.667 -213.333)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_18154" data-name="Group 18154" transform="translate(55.86 9.474)">
+      <g id="Group_18153" data-name="Group 18153">
+        <path id="Path_91644" data-name="Path 91644" d="M144.983,320H139.3a.632.632,0,1,0,0,1.263h5.684a.632.632,0,0,0,0-1.263Z" transform="translate(-138.667 -320)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_18156" data-name="Group 18156" transform="translate(53.334)">
+      <g id="Group_18155" data-name="Group 18155">
+        <path id="Path_91645" data-name="Path 91645" d="M63.439,1.895h-.664A2.207,2.207,0,0,0,60.6,0H58.071a2.207,2.207,0,0,0-2.178,1.895h-.664a1.9,1.9,0,0,0-1.895,1.895v9.474a1.9,1.9,0,0,0,1.895,1.895h8.211a1.9,1.9,0,0,0,1.895-1.895V3.789A1.9,1.9,0,0,0,63.439,1.895Zm-5.368-.632H60.6a.947.947,0,1,1,0,1.895H58.071a.947.947,0,0,1,0-1.895Zm6,12a.632.632,0,0,1-.632.632H55.229a.632.632,0,0,1-.632-.632V3.789a.632.632,0,0,1,.632-.632h.853a2.208,2.208,0,0,0,1.989,1.263H60.6a2.208,2.208,0,0,0,1.989-1.263h.853a.632.632,0,0,1,.632.632v9.474Z" transform="translate(-53.334)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

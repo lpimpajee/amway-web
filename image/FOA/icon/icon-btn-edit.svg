@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <filter id="Rectangle_3407" x="0" y="0" width="36" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#38539a" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3498" data-name="Rectangle 3498" width="20" height="19.903" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19215" data-name="Group 19215" transform="translate(41 -16)">
+    <g transform="matrix(1, 0, 0, 1, -41, 16)" filter="url(#Rectangle_3407)">
+      <rect id="Rectangle_3407-2" data-name="Rectangle 3407" width="24" height="24" rx="12" transform="translate(6 4)" fill="none"/>
+    </g>
+    <g id="Group_6224" data-name="Group 6224" transform="translate(-33 22)">
+      <g id="Group_6226" data-name="Group 6226" transform="translate(0 0)">
+        <g id="Group_6855" data-name="Group 6855" transform="translate(0 0)">
+          <g id="Group_6239" data-name="Group 6239" clip-path="url(#clip-path)">
+            <path id="Path_26288" data-name="Path 26288" d="M18.266,12.308h0a.688.688,0,0,0-.687.686v4.321a1.268,1.268,0,0,1-1.267,1.264H2.634a1.268,1.268,0,0,1-1.266-1.267V4.63A1.268,1.268,0,0,1,2.634,3.365H6.939a.7.7,0,0,0,.763-.6A.688.688,0,0,0,7.1,2a.522.522,0,0,0-.14,0H2.634A2.64,2.64,0,0,0,0,4.629V17.313a2.64,2.64,0,0,0,2.634,2.63h13.68a2.639,2.639,0,0,0,2.634-2.631V12.989a.69.69,0,0,0-.681-.681" transform="translate(0 -0.039)" fill="#fff"/>
+            <path id="Path_26289" data-name="Path 26289" d="M19.377,1.311,18.787.72A2.467,2.467,0,0,0,15.3.72L6.312,9.71a.707.707,0,0,0-.18.308L4.949,14.286a.7.7,0,0,0,.861.862l4.268-1.182a.685.685,0,0,0,.308-.179L19.377,4.8a2.472,2.472,0,0,0,0-3.485M8.594,12.921l-1.964.544L7.174,11.5ZM17,5.193,9.922,12.269l-2.1-2.1L14.9,3.1ZM18.39,3.8h0l-.4.4L15.9,2.106l.4-.4a1.063,1.063,0,0,1,1.5,0l.589.588a1.068,1.068,0,0,1,0,1.505" transform="translate(-0.096 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

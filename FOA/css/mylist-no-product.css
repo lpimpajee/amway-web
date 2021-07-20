@@ -1,0 +1,58 @@
+.no-onmylist-noitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.no-onmylist-noitem-img {
+    width: 6.5rem;
+    background: url('../../image/creator/no-pd.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.no-onmylist-noitem-img::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 121%;
+}
+
+@media (max-width:1023px) {
+    .no-onmylist-noitem-img {
+        width: 4.5rem;
+    }
+}
+
+.fl-card-pd-noitem.customer-view {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+.btn-add-pd-from-noitem {
+    min-width: 9rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}

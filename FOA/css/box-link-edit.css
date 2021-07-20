@@ -1,0 +1,205 @@
+.link-add-area-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box-link-edit {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    height: 3rem;
+}
+
+.box-link-edit-btn {
+    display: none;
+    height: calc(3rem - 0.063rem);
+    width: 3rem;
+    background: #2c2c2c;
+    border: none;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+}
+
+.box-link-edit.disabled .box-link-edit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -0.063rem;
+    top: -0.063rem;
+    bottom: 0rem;
+}
+
+.box-link-edit-text {
+    display: none;
+}
+
+.box-link-edit.disabled .box-link-edit-text {
+    width: calc(100% - 3rem);
+    padding: 0.625rem 0 0.5rem 0.125rem;
+    color: #9EA0A3;
+    padding-right: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    height: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: clip !important;
+    display: -webkit-box !important;
+    line-clamp: 1 !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+}
+
+.box-link-edit.disabled .box-link-edit-text p {
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: clip !important;
+    display: -webkit-box !important;
+    line-clamp: 1 !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+}
+
+.box-link-edit.disabled .box-link-edit-btn:hover {
+    background: #000;
+}
+
+.box-link-edit.disabled .box-link-edit-btn::after {
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.125rem;
+    background: url('../../image/FOA/icon/icon-btn-edit.svg') no-repeat center;
+    background-size: 2rem 2rem;
+}
+
+.box-link-edit .amway-input {
+    height: 100%;
+    width: 100%;
+}
+
+.box-link-edit.disabled .amway-input {
+    width: 0;
+    height: 0;
+}
+
+.box-link-edit-content {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.box-link-edit-content.selected {
+    height: auto;
+    max-height: 15rem;
+}
+
+.box-link-edit-content-warning {
+    border-radius: 0.625rem;
+    width: 100%;
+    background: #F8F8E7;
+    border: 0.063rem solid #F5F5C9;
+    display: flex;
+    align-items: flex-start;
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+}
+
+.box-link-edit-content-warning-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    background: url('../../image/FOA/icon/icon-warning.svg') no-repeat center;
+    background-size: 0.875rem 0.875rem;
+}
+
+.box-link-edit-content-warning-text {
+    width: calc(100% - 0.875rem);
+    color: #62625A;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+.box-link-edit-content-tool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-link-edit-content-tool button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amway-info-url-status {
+    padding-top: 0.5rem;
+}
+
+.box-link-edit {
+    border-radius: 0.625rem;
+    border: 0.125rem solid #EDEDED;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: 100%;
+}
+
+.box-link-edit:focus-within,
+.box-link-edit.active {
+    border: 0.125rem solid #2c2c2c;
+}
+
+.box-link-edit.disabled {
+    background: #EDEDED;
+    border: 0.125rem solid #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 1rem;
+}
+
+.link-text-onpop {
+    padding-bottom: 0.5rem;
+}
+
+.link-add-area-box {
+    display: block;
+}
+
+@media(max-width: 1023px) {
+    .link-add-area-box {
+        padding-right: 1.5rem;
+        display: block;
+    }
+    .box-link-edit {
+        width: 100%;
+    }
+    .box-link-edit .amway-input,
+    .box-link-edit.disabled .box-link-edit-text p {
+        font-size: 0.875rem;
+    }
+    .sub-text-for-label {
+        padding-right: 1.5rem;
+    }
+    .box-link-edit.disabled .box-link-edit-text {
+        padding-right: 0.25rem;
+    }
+    .box-link-edit-content.selected {
+        padding-right: 1.5rem;
+    }
+}
