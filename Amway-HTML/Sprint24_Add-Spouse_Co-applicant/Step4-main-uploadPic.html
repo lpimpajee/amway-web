@@ -23,453 +23,453 @@
     
     <!-- <link rel="stylesheet" href="https://www.amway.co.th/_ui/responsive/theme-amwaythailand/amwaythailand_new_header.css?appVersion=2.0.0.20" /> -->
     <style>
-/* I embed the current stylesheet but my source can't display the same that why I put important css below */
-input{
-    color: rgb(44, 44, 44) !important;
-    font-family: inherit;
-    font-weight: 400!important;
-}
-.oa-sign-up-verification-layout__illus.--hide-on-mobile {
-    display: block;
-}
-.oa-button.--primary {
-    background: #2c2c2c;
-    color: #fff;
-}
-.oa-toggle-content__active-background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 50%;
-    transition: transform .2s;
-    border-radius: 4px;
-    background: #2c2c2c;
-}
-p.oa-message.--error.oa-input-group__error-message {
-    display: contents;
-}
-
-.oa-input input.--has-error, .oa-input textarea.--has-error {
-    border-color: #c3c4c5;
-}
-.oa-sign-up-personal-details-form__birthday>:first-child, .oa-sign-up-personal-details-form__birthday>:last-child {
-    flex: 0.75;
-}
-.oa-column-3:nth-child(1) { width: 33.3%;margin: 0 16px 0 0;}
-.oa-column-3:nth-child(2) { width: 33.3%;margin: 0 16px 0 0;}
-.oa-message.--error {
-    color: #a80035;
-}
-input#birthday {
-    position: absolute;
-    left: -9999px;
-}
-.btn-black {
-    font-weight: 500;
-    background: #2C2C2C;
-    color: #FFFFFF;
-    cursor: pointer;
-    border: 0.063rem solid #2C2C2C;
-}
-
-.add-bank-bar {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
-    width: 100%;
-    background-color: #ffffff;
-    /* box-shadow: 0 0.188rem 0.375rem rgba(56, 83, 154, 0.16); */
-}
-
-.add-bank-btn-back {
-    position: absolute;
-    top: 0.75rem;
-    left: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 6rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(56, 83, 154, 0.16);
-}
-
-.add-bank-btn-back::before {
-    content: "b";
-    font-size: 1.75rem;
-    font-family: Amway Icon !important;
-}
-
-.add-bank-bar-title {
-    max-width: 10rem;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1rem;
-    text-align: center;
-}
-
-.add-bank-content {
-    padding: 0 1.5rem;
-}
-
-.add-bank-content-title {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2rem;
-}
-
-.add-bank-content-description {
-    margin-top: 0.25rem;
-    text-align: center;
-}
-
-.amway-input-area.disabled {
-    opacity: 0.7;
-}
-
-.amway-input-description {
-    color: #9EA0A3;
-    font-size: 0.75rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-}
-
-.checkout-box-upload-label.full-width {
-    width: 100%;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    border-radius: 0.5rem;
-    border: 0.125rem dashed #9EA0A3;
-}
-
-.checkout-box-upload-label.full-width .checkout-box-upload-label-icon-area {
-    padding-top: 0;
-    padding-bottom: 0.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.upload-file-image-area {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.625rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: #fafafa;
-}
-
-.upload-file-image-area::after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
-
-.upload-file-image-area img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 0.625rem;
-    object-fit: contain;
-    object-position: center;
-}
-
-.upload-file-detail {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    padding: 0.5rem 0.75rem 0.5rem 1rem;
-    border-radius: 0.625rem;
-    background-color: #EDEDED;
-}
-
-.upload-file-title {
-    width: calc(100% - 1.25rem);
-    padding-right: 0.5rem;
-    font-size: 0.813rem;
-    font-weight: 700;
-    line-height: 1.313rem;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-}
-
-.upload-file-delete {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.25rem;
-    height: 1.25rem;
-}
-
-.upload-file-delete::before {
-    content: "";
-    display: block;
-    width: 0.875rem;
-    height: 0.875rem;
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../../image/FOA/icon/icon-bin.svg");
-}
-
-.upload-example {
-    display: flex;
-    align-items: center;
-    padding: 0.25rem;
-    background-color: #FAFAFA;
-}
-
-.upload-example-image {
-    width: 2rem;
-    height: 2rem;
-}
-
-.upload-example-image img {
-    width: 100%;
-    height: 100%;
-}
-
-.upload-example-text {
-    margin-left: 0.75rem;
-    font-size: 0.813rem;
-    font-weight: 500;
-    line-height: 1.313rem;
-    text-decoration: underline;
-}
-
-.checkout-box-footer {
-    padding-bottom: 2.5rem;
-}
-
-.image-popup {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.image-popup.active {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.popup-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(44, 44, 44, 0.8);
-}
-
-.image-area {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.image-area img {
-    z-index: 9999;
-    max-width: 100%;
-    max-height: 80%;
-}
-
-.image-popup-close {
-    cursor: pointer;
-    position: absolute;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 1rem;
-    color: #ffffff;
-}
-
-.image-popup-close::before {
-    content: 'r';
-    font-weight: 700;
-    font-family: Amway Icon !important;
-}
-
-.checkout-box-label {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-}
-
-.checkout-box-detail {
-    margin-top: 1rem;
-    padding-bottom: 0.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    border-bottom: 0.125rem solid #F8F8F8;
-}
-
-.checkout-box-detail-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-}
-
-.checkout-box-detail-title {
-    width: 50%;
-}
-
-.checkout-box-detail-text {
-    width: 50%;
-    text-align: right;
-    color: #9EA0A3;
-}
-
-.checkout-box-description {
-    margin-top: 1rem;
-    font-size: 0.813rem;
-    font-weight: 500;
-    line-height: 1.313rem;
-    color: #9EA0A3;
-}
-
-.checkout-box-label-input {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-    padding-bottom: 0.25rem;
-}
-
-.checkout-box-upload-input {
-    position: absolute;
-    opacity: 0;
-    z-index: -999999;
-}
-
-.checkout-box-upload-label-icon {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 1rem;
-    background: #2c2c2c;
-}
-
-.checkout-box-upload-label-icon::before {
-    content: '';
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    background: url('../../image/creator/icon/icon-plus-w.svg');
-    background-size: 1rem 1rem;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.checkout-box-upload-label-text {
-    text-align: center;
-    font-size: 0.813rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-}
-
-.checkout-box-upload-area {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-@media (min-width: 1024px) {
-    .add-bank {
-        max-width: 36.25rem;
-        margin: 2rem auto 0;
-    }
-    .add-bank-content-description {
-        font-size: 1rem;
-        font-weight: 500;
-        line-height: 1.5rem;
-    }
-    .upload-file-image-area {
-        max-width: 15.5rem;
-        max-height: 15.5rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .image-popup-close {
-        top: 1rem;
-        right: 1rem;
-    }
-    .image-popup-close::before {
-        font-size: 1.25rem;
-    }
-    .btn-checkout-step {
-        max-width: 20rem;
-    }
-}
-
-@media (max-width: 1023px) {
-    .add-bank {
-        position: fixed;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        overflow: auto;
-    }
-    .add-bank-content-title {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .add-bank-content-description {
-        font-size: 0.813rem;
-        font-weight: 500;
-        line-height: 1.313rem;
-    }
-    .upload-file-image-area {
-        width: 100%;
-        height: 100%;
-    }
-    .image-popup-close {
-        top: 0.5rem;
-        right: 0.5rem;
-    }
-    .image-popup-close::before {
-        font-size: 1.5rem;
-    }
-    .checkout-box-footer-bottom {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        background-color: #ffffff;
-    }
-}
-
-@media (max-width: 1023px) and (max-height: 425px) {
-    .checkout-box-description {
-        margin-bottom: 7.75rem;
-    }
-}
-    </style>
+      /* I embed the current stylesheet but my source can't display the same that why I put important css below */
+      input{
+          color: rgb(44, 44, 44) !important;
+          font-family: inherit;
+          font-weight: 400!important;
+      }
+      .oa-sign-up-verification-layout__illus.--hide-on-mobile {
+          display: block;
+      }
+      .oa-button.--primary {
+          background: #2c2c2c;
+          color: #fff;
+      }
+      .oa-toggle-content__active-background {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          width: 50%;
+          transition: transform .2s;
+          border-radius: 4px;
+          background: #2c2c2c;
+      }
+      p.oa-message.--error.oa-input-group__error-message {
+          display: contents;
+      }
+      
+      .oa-input input.--has-error, .oa-input textarea.--has-error {
+          border-color: #c3c4c5;
+      }
+      .oa-sign-up-personal-details-form__birthday>:first-child, .oa-sign-up-personal-details-form__birthday>:last-child {
+          flex: 0.75;
+      }
+      .oa-column-3:nth-child(1) { width: 33.3%;margin: 0 16px 0 0;}
+      .oa-column-3:nth-child(2) { width: 33.3%;margin: 0 16px 0 0;}
+      .oa-message.--error {
+          color: #a80035;
+      }
+      input#birthday {
+          position: absolute;
+          left: -9999px;
+      }
+      .btn-black {
+          font-weight: 500;
+          background: #2C2C2C;
+          color: #FFFFFF;
+          cursor: pointer;
+          border: 0.063rem solid #2C2C2C;
+      }
+      
+      .add-bank-bar {
+          position: sticky;
+          top: 0;
+          z-index: 99;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 3.5rem;
+          width: 100%;
+          background-color: #ffffff;
+          /* box-shadow: 0 0.188rem 0.375rem rgba(56, 83, 154, 0.16); */
+      }
+      
+      .add-bank-btn-back {
+          position: absolute;
+          top: 0.75rem;
+          left: 1.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          height: 2rem;
+          width: 2rem;
+          border-radius: 6rem;
+          box-shadow: 0 0.125rem 0.25rem rgba(56, 83, 154, 0.16);
+      }
+      
+      .add-bank-btn-back::before {
+          content: "b";
+          font-size: 1.75rem;
+          font-family: Amway Icon !important;
+      }
+      
+      .add-bank-bar-title {
+          max-width: 10rem;
+          font-size: 0.875rem;
+          font-weight: 700;
+          line-height: 1rem;
+          text-align: center;
+      }
+      
+      .add-bank-content {
+          padding: 0 1.5rem;
+      }
+      
+      .add-bank-content-title {
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: 700;
+          line-height: 2rem;
+      }
+      
+      .add-bank-content-description {
+          margin-top: 0.25rem;
+          text-align: center;
+      }
+      
+      .amway-input-area.disabled {
+          opacity: 0.7;
+      }
+      
+      .amway-input-description {
+          color: #9EA0A3;
+          font-size: 0.75rem;
+          font-weight: 500;
+          line-height: 1.5rem;
+      }
+      
+      .checkout-box-upload-label.full-width {
+          width: 100%;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
+          border-radius: 0.5rem;
+          border: 0.125rem dashed #9EA0A3;
+      }
+      
+      .checkout-box-upload-label.full-width .checkout-box-upload-label-icon-area {
+          padding-top: 0;
+          padding-bottom: 0.25rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .upload-file-image-area {
+          position: relative;
+          overflow: hidden;
+          border-radius: 0.625rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          background-color: #fafafa;
+      }
+      
+      .upload-file-image-area::after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+      }
+      
+      .upload-file-image-area img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border-radius: 0.625rem;
+          object-fit: contain;
+          object-position: center;
+      }
+      
+      .upload-file-detail {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+          padding: 0.5rem 0.75rem 0.5rem 1rem;
+          border-radius: 0.625rem;
+          background-color: #EDEDED;
+      }
+      
+      .upload-file-title {
+          width: calc(100% - 1.25rem);
+          padding-right: 0.5rem;
+          font-size: 0.813rem;
+          font-weight: 700;
+          line-height: 1.313rem;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          text-overflow: ellipsis;
+      }
+      
+      .upload-file-delete {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 1.25rem;
+          height: 1.25rem;
+      }
+      
+      .upload-file-delete::before {
+          content: "";
+          display: block;
+          width: 0.875rem;
+          height: 0.875rem;
+          background-size: auto 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image: url("../../image/FOA/icon/icon-bin.svg");
+      }
+      
+      .upload-example {
+          display: flex;
+          align-items: center;
+          padding: 0.25rem;
+          background-color: #FAFAFA;
+      }
+      
+      .upload-example-image {
+          width: 2rem;
+          height: 2rem;
+      }
+      
+      .upload-example-image img {
+          width: 100%;
+          height: 100%;
+      }
+      
+      .upload-example-text {
+          margin-left: 0.75rem;
+          font-size: 0.813rem;
+          font-weight: 500;
+          line-height: 1.313rem;
+          text-decoration: underline;
+      }
+      
+      .checkout-box-footer {
+          padding-bottom: 2.5rem;
+      }
+      
+      .image-popup {
+          display: none;
+          position: fixed;
+          z-index: 9999;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+      }
+      
+      .image-popup.active {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .popup-bg {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(44, 44, 44, 0.8);
+      }
+      
+      .image-area {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+      }
+      
+      .image-area img {
+          z-index: 9999;
+          max-width: 100%;
+          max-height: 80%;
+      }
+      
+      .image-popup-close {
+          cursor: pointer;
+          position: absolute;
+          z-index: 9999;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 2rem;
+          width: 2rem;
+          border-radius: 1rem;
+          color: #ffffff;
+      }
+      
+      .image-popup-close::before {
+          content: 'r';
+          font-weight: 700;
+          font-family: Amway Icon !important;
+      }
+      
+      .checkout-box-label {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 700;
+      }
+      
+      .checkout-box-detail {
+          margin-top: 1rem;
+          padding-bottom: 0.5rem;
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 1.5rem;
+          border-bottom: 0.125rem solid #F8F8F8;
+      }
+      
+      .checkout-box-detail-row {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.5rem;
+      }
+      
+      .checkout-box-detail-title {
+          width: 50%;
+      }
+      
+      .checkout-box-detail-text {
+          width: 50%;
+          text-align: right;
+          color: #9EA0A3;
+      }
+      
+      .checkout-box-description {
+          margin-top: 1rem;
+          font-size: 0.813rem;
+          font-weight: 500;
+          line-height: 1.313rem;
+          color: #9EA0A3;
+      }
+      
+      .checkout-box-label-input {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          font-weight: 700;
+          padding-bottom: 0.25rem;
+      }
+      
+      .checkout-box-upload-input {
+          position: absolute;
+          opacity: 0;
+          z-index: -999999;
+      }
+      
+      .checkout-box-upload-label-icon {
+          width: 2rem;
+          height: 2rem;
+          border-radius: 1rem;
+          background: #2c2c2c;
+      }
+      
+      .checkout-box-upload-label-icon::before {
+          content: '';
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          background: url('../../image/creator/icon/icon-plus-w.svg');
+          background-size: 1rem 1rem;
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+      
+      .checkout-box-upload-label-text {
+          text-align: center;
+          font-size: 0.813rem;
+          line-height: 1.25rem;
+          font-weight: 700;
+      }
+      
+      .checkout-box-upload-area {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+      }
+      
+      @media (min-width: 1024px) {
+          .add-bank {
+              max-width: 36.25rem;
+              margin: 2rem auto 0;
+          }
+          .add-bank-content-description {
+              font-size: 1rem;
+              font-weight: 500;
+              line-height: 1.5rem;
+          }
+          .upload-file-image-area {
+              max-width: 15.5rem;
+              max-height: 15.5rem;
+              margin-left: auto;
+              margin-right: auto;
+          }
+          .image-popup-close {
+              top: 1rem;
+              right: 1rem;
+          }
+          .image-popup-close::before {
+              font-size: 1.25rem;
+          }
+          .btn-checkout-step {
+              max-width: 20rem;
+          }
+      }
+      
+      @media (max-width: 1023px) {
+          .add-bank {
+              position: fixed;
+              z-index: 999;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              overflow: auto;
+          }
+          .add-bank-content-title {
+              margin-left: auto;
+              margin-right: auto;
+          }
+          .add-bank-content-description {
+              font-size: 0.813rem;
+              font-weight: 500;
+              line-height: 1.313rem;
+          }
+          .upload-file-image-area {
+              width: 100%;
+              height: 100%;
+          }
+          .image-popup-close {
+              top: 0.5rem;
+              right: 0.5rem;
+          }
+          .image-popup-close::before {
+              font-size: 1.5rem;
+          }
+          .checkout-box-footer-bottom {
+              position: fixed;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
+              background-color: #ffffff;
+          }
+      }
+      
+      @media (max-width: 1023px) and (max-height: 425px) {
+          .checkout-box-description {
+              margin-bottom: 7.75rem;
+          }
+      }
+          </style>
 
   </head>
   <body>
@@ -1797,8 +1797,7 @@ input#birthday {
                     ยืนยันตัวตนคู่สมรส
                 </h3>
                 <p class="oa-sign-up-verification-layout__description">
-                  กรุณากรอกหมายเลขประจำตัวประชาชน 
-                  หรือเลขหนังสือเดินทาง (กรณีชาวต่างชาติ) เพื่อยืนยันตัวตน
+                  กรุณาอัพโหลดเอกสารประกอบการสมรส เช่น ทะเบียนสมรส <br>การ์ดเชิญงานแต่ง รูปคู่
                 </p>
               </header>
               <div class="oa-toggle-content">
@@ -1827,14 +1826,14 @@ input#birthday {
                                 </div>
                             </div>
         
-                            <div class="upload-example bank-detail-image">
+                            <!-- <div class="upload-example bank-detail-image">
                                 <div class="upload-example-image">
                                     <img src="../../image/FOA/illustration/ex-bank.svg">
                                 </div>
                                 <div class="upload-example-text">
                                     คลิกดูรูปภาพตัวอย่างสำเนาหน้าสมุดบัญชี
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="checkout-box-footer">
                                 <a href="#" class="btn-black btn-checkout-step">บันทึก</a>
                             </div>
@@ -1890,46 +1889,7 @@ input#birthday {
     <script src="../../v1/Header/js/LanguageSwitcher.js"></script>
     <script src="../../v2/Layout/js/MainLayout.js"></script>
 
-   
-    <script>
-        (() => {
-            function AlphaOnlyName() {
-                $('#FirstnameEng').keypress(function(e) { // Accept only alpha numerics, no special characters 
-                    var regex = new RegExp("^[a-zA-Z \\- \\.]+$"); //A-z and .,-
-                    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-                    if (regex.test(str)) {
-                        $('#FirstnameEng-error').html("");
-                        return true;
-                    } else {
-                        // $('#first-name-eng-error').css('background', '#ff000017');
-                        $('#FirstnameEng-error').html("กรุณากรอกชื่อเป็นภาษาอังกฤษ");
-
-                    }
-                    e.preventDefault();
-
-                    return false;
-                });
-                $('#LastnameEng').keypress(function(e) { // Accept only alpha numerics, no special characters 
-                    var regex = new RegExp("^[a-zA-Z \\- \\.]+$"); //A-z and .,-
-                    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-                    if (regex.test(str)) {
-                        $('#LastnameEng-error').html("");
-                        return true;
-                    } else {
-                            // $('#last-name-eng-error').css('background', '#ff000017');
-                        $('#LastnameEng-error').html("กรุณากรอกชื่อเป็นภาษาอังกฤษ");
-                    }
-                    e.preventDefault();
-                    return false;
-                });
-            }
-
-
-            AlphaOnlyName();
-
-        })();
-    </script>
-        <script src="../../FOA/js/cancel_add_bank.js"></script>
+    <script src="../../FOA/js/cancel_add_bank.js"></script>
         <script src="../../FOA/js/image-upload-preview.js"></script>
         <script src="../../FOA/js/file-upload.js"></script>
   </body>
